@@ -1,5 +1,5 @@
 # Read Me First
-The project consist two modules, robotapp and command-robot.
+The project consists two modules, robotapp and command-robot.
 Server side which is command-robot should run first.
 
 To start command-robot run bellowed command inside /command-robot folder
