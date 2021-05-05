@@ -1,0 +1,7 @@
+<div class="main-div" *ngIf="tiles">
+    <div class="row" *ngFor="let row of tiles">
+      <div class="" *ngFor="let col of row">
+        <ide-tile [xCoordination]="col.x" [yCoordination]="col.y"></ide-tile>
+      </div>
+    </div>
+</div>

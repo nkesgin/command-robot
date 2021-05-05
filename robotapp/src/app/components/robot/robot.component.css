@@ -1,0 +1,6 @@
+img {
+  position: absolute;
+  z-index: 999;
+  max-height: 100px;
+  max-width: 100px;
+}

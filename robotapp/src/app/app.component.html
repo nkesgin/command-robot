@@ -1,0 +1,4 @@
+<div class="container" style="margin-left: 0px">
+  <ide-map *ngIf="tiles && tiles.length > 0" [tiles]="tiles"></ide-map>
+  <ide-robot [currentTile]="{x: initialRobotScript.x, y: initialRobotScript.y}" [currentDirection]="initialRobotScript.direction" #robot></ide-robot>
+</div>
